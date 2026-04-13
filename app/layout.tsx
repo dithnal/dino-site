@@ -1,6 +1,6 @@
 import './globals.css'
 import Link from 'next/link'
-import footer from './components/footer';
+import Footer from './components/footer';
 export const metadata = {
   title: 'Dino',
   description: 'Founded by Dithnal Dekli', verification: {google:'<meta name="google-site-verification" content="4WV8OTvSi10xZJw2n3yJMATqPuDovnzWdFGnGIih2s8',},
@@ -19,7 +19,7 @@ export default function RootLayout({
           <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
             {/* Logo */}
             <Link href="/" className="text-2xl font-black tracking-tighter text-black">
-              DINO
+              <span className="font-bold text-xl">DINO</span>
             </Link>
 
             {/* Links */}
@@ -41,7 +41,7 @@ export default function RootLayout({
         <main className="pt-20">
           {children}
         </main>
-        <footer/>
+        <Footer/>
       </body>
     </html>
   )
