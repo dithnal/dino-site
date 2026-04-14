@@ -18,7 +18,7 @@ export default function ShopPage() {
         
         <input
           type="text"
-          placeholder="Search motors or ESCs..."
+          placeholder="Search here"
           className="border-2 border-black px-6 py-2 rounded-full outline-none w-full md:w-64 focus:bg-gray-50 transition"
           onChange={(e) => setSearchQuery(e.target.value)}
         />
@@ -56,7 +56,7 @@ export default function ShopPage() {
         </div>
       ) : (
         <div className="text-center py-20">
-          <p className="text-gray-400 text-lg italic">No parts found matching your search, bro.</p>
+          <p className="text-gray-400 text-lg italic">No parts found matching your search.</p>
         </div>
       )}
     </div>
