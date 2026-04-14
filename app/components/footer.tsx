@@ -15,10 +15,10 @@ export default function Footer() {
           {/* CEO Side */}
           <div className="flex flex-col items-center md:items-end">
             <div className="bg-black text-white px-4 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest mb-3">
-              Founder & CEO
+              DINO
             </div>
             <h3 className="text-2xl font-black uppercase italic tracking-tight text-gray-900">
-              Dithnal Dekli
+              The new elite.
             </h3>
             <p className="text-[10px] text-gray-400 mt-2 uppercase font-medium">
               © 2026 DINO Industries. All rights reserved.
