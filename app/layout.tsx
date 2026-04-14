@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Footer from './components/footer';
 export const metadata = {
   title: 'Dino',
-  description : 'The home of exclusive drops',
+  description : 'The home of exclusive drops'
 }
 
 export default function RootLayout({
