@@ -12,7 +12,7 @@ export default function ProductDetail() {
 
   const handleWhatsAppOrder = () => {
     const message = `Hi! I want to order the ${product.name}. Is it in stock?`;
-    window.open(`https://wa.me/94713741650?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://wa.me/94772119290?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   return (
