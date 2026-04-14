@@ -1,4 +1,4 @@
-import { Star, ShieldCheck, Truck, RotateCcw } from 'lucide-react';
+import { Star, ShieldCheck, Truck, Medal } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -32,13 +32,13 @@ export default function Home() {
           </div>
           <div className="flex flex-col items-center space-y-2">
             <ShieldCheck className="text-emerald-500" size={32} />
-            <h3 className="font-bold">Lifetime Warranty</h3>
-            <p className="text-sm text-slate-500">Built to last a lifetime</p>
+            <h3 className="font-bold">Premium Quality</h3>
+            <p className="text-sm text-slate-500">Carefully selected for the best experience</p>
           </div>
           <div className="flex flex-col items-center space-y-2">
-            <RotateCcw className="text-emerald-500" size={32} />
-            <h3 className="font-bold">30-Day Returns</h3>
-            <p className="text-sm text-slate-500">No questions asked</p>
+            <Medal className="text-emerald-500" size={32} />
+            <h3 className="font-bold">Exclusive Collection</h3>
+            <p className="text-sm text-slate-500">Limited edition items</p>
           </div>
         </div>
       </section>
