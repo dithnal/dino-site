@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Footer from './components/footer';
 export const metadata = {
   title: 'Dino',
-  description: 'Founded by Dithnal Dekli', verification: {google:'<meta name="google-site-verification" content="4WV8OTvSi10xZJw2n3yJMATqPuDovnzWdFGnGIih2s8',},
+  description : 'The home of exclusive drops',
 }
 
 export default function RootLayout({
