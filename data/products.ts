@@ -21,5 +21,18 @@ export const products: Product[] = [
       "Battery Life": "Up to 20 hours (with case)",  
     },
     image: "/images/earbuds-essential-100.jpg"
+  },
+  { 
+    id: "earbuds-essential-200",
+    category: "Earbuds",
+    name: "Lenovo LP40 wireless headphones",
+    price: "rs. 3,000",
+    description: "original Lenovo LP40 wireless headphones TWS Bluetooth Earphones Touch control Sport Headset Stereo Earbuds",
+    specs: {
+      "Pairing": "Automatic pairing",
+      "Comfort": "Comfortable to wear"
+    },
+    image: "/images/earbuds-essential-200.jpg"
   }
-];
+];  
+    
